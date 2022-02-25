@@ -51,8 +51,7 @@ print(tf.__version__)
 X = np.arange(-100, 100, 4).reshape((-1,1))
 
 # Create labels
-y = np.arange(-90, 110, 4).reshape((-1,1))
-
+y = np.arange(-90, 110, 4)
 
 # Split data into train and test sets
 N = 35
